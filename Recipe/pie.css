@@ -47,9 +47,11 @@ abbr{
     margin-bottom: 15px;
 }
 .searchLink a{
+    text-align: right;
     display: block;
 }
 .validatorTool{
+    text-align: right;
     display: inline;
     clear: both;
 }
