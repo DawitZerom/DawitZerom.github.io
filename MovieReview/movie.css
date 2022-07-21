@@ -77,8 +77,9 @@ font-size: small;
 }
 
 .starring{
-    background-color: #999999;
+    background-color: #A2B964;
     margin-bottom: 0px;
+    border-bottom-right-radius: 15px;
 }
 #TMNT{
 text-align: center;
@@ -93,8 +94,11 @@ text-shadow: 2px 2px 5px black ;
 .date{
     margin-top: 750px;
     text-align: center;
-    background-color: #999999;
+    background-color: #A2B964;
     margin-bottom: 0px;
+    width: 100%;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 .validator{
     
