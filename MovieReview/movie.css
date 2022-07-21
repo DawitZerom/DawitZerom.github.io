@@ -2,16 +2,16 @@ body{
     font-size: 8pt;
     font-family:  Verdana, Tahoma, sans-serif;
     background-image: url("background.png");
+    margin: 0;
+    padding: 0pt;
 }
-.banner{
-    background-image: url(bannerbg.png);
-    background-repeat: repeat-x;
-    height: 50px;
-    border-top-left-radius: 25px ;
+.banner{    
+    background-image: url("bannerbg.png");
+   
 }
-#banner img{
-    margin-left: auto;
-    margin-right: auto;
+.banner img{
+    margin-left: 25%;
+    
 }
 h1{
     font-size: 24pt;
