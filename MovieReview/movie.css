@@ -9,6 +9,10 @@ body{
     height: 50px;
     border-top-left-radius: 25px ;
 }
+#banner img{
+    margin-left: auto;
+    margin-right: auto;
+}
 h1{
     font-size: 24pt;
     font-weight: bold;
@@ -29,6 +33,7 @@ h1{
 .right{
     float: right;
     width: 31.2%;
+    height: 30px;
 
 }
 .column1{
@@ -92,6 +97,7 @@ text-shadow: 2px 2px 5px black ;
     margin-bottom: 0px;
 }
 .validator{
+    
     float: right;
     opacity: 0.5;
 }
