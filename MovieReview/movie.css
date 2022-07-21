@@ -84,7 +84,7 @@ font-size: small;
     background-color: #A2B964;
     margin-top: 0px;
     margin-bottom: 0px;
-    border-bottom-right-radius: 15px;
+    border-bottom-right-radius: -15px;
 }
 #TMNT{
 text-align: center;
