@@ -75,9 +75,13 @@ font-size: small;
     float: left;
     margin-right: 5px;
 }
-
+.overview{
+    border-top-right-radius: 15px;
+    margin-bottom: 0px;
+}
 .starring{
     background-color: #A2B964;
+    margin-top: 0px;
     margin-bottom: 0px;
     border-bottom-right-radius: 15px;
 }
