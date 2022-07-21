@@ -97,7 +97,7 @@ text-shadow: 2px 2px 5px black ;
     padding: 10px;
 }
 .date{
-    margin-top: 735px;
+    margin-top: 995px;
     text-align: center;
     background-color: #A2B964;
     margin-bottom: 0px;
@@ -111,4 +111,11 @@ text-shadow: 2px 2px 5px black ;
     opacity: 0.5;
     position: fixed;
 
+}
+dd{
+    margin: 10pt;
+    font-size: bold;
+}
+dd li{
+    list-style: none;
 }
