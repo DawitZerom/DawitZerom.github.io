@@ -1,0 +1,97 @@
+body{
+    font-size: 8pt;
+    font-family:  Verdana, Tahoma, sans-serif;
+    background-image: url("background.png");
+}
+.banner{
+    background-image: url(bannerbg.png);
+    background-repeat: repeat-x;
+    height: 50px;
+    border-top-left-radius: 25px ;
+}
+h1{
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-shadow: 3px 3px #999999;
+    text-align: center;
+}
+.container{
+    width: 800px;    
+    margin: auto;
+    border: 4px solid gray;
+    border-radius: 20px;
+    border-top-right-radius: 20px ;
+}
+.left{
+    width: 550px;
+}
+.right{
+    float: right;
+    width: 31.2%;
+
+}
+.column1{
+    width: 47%;
+    float: left;
+    margin-right : 5px;
+}
+.column2{
+    width: 47%;
+    float: right;
+    margin-right : 5px;
+}
+#rottenbig{
+    background-image: url(bannerbg.png);
+    font-size: 48pt;
+    font-weight: bold ;
+    color: red;
+    border-top-left-radius: 15px ;    
+}
+#rottenbig img{
+    border-top-left-radius: 15px ;    
+}
+.paragraph{
+border: 2px solid gray;
+background-color: #E8DC9B;
+padding: 8px;
+border-radius: 10px;
+margin-right: 5px;
+font-size: 8pt;
+}
+.paragraph img{
+    float: left ;
+}
+.people{
+font-style: italic;
+font-size: small;
+}
+.people img{
+    float: left;
+    margin-right: 5px;
+}
+
+.starring{
+    background-color: #999999;
+    margin-bottom: 0px;
+}
+#TMNT{
+text-align: center;
+text-shadow: 2px 2px 5px black ;
+}
+.center{
+    margin: auto;
+    width: 60%;
+    border: 3px black;
+    padding: 10px;
+}
+.date{
+    margin-top: 750px;
+    text-align: center;
+    background-color: #999999;
+    margin-bottom: 0px;
+}
+.validator{
+    float: right;
+    opacity: 0.5;
+}
