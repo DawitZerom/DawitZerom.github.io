@@ -26,6 +26,7 @@ h1{
     border: 4px solid gray;
     border-radius: 20px;
     border-top-right-radius: 20px ;
+    margin-bottom: ;
 }
 .left{
     width: 550px;
@@ -75,9 +76,9 @@ font-size: small;
     float: left;
     margin-right: 5px;
 }
-.overview{
+.overview img{
     border-top-right-radius: 15px;
-    margin-bottom: 0px;
+    margin-bottom: -14px;
 }
 .starring{
     background-color: #A2B964;
@@ -96,7 +97,7 @@ text-shadow: 2px 2px 5px black ;
     padding: 10px;
 }
 .date{
-    margin-top: 750px;
+    margin-top: 735px;
     text-align: center;
     background-color: #A2B964;
     margin-bottom: 0px;
@@ -105,7 +106,6 @@ text-shadow: 2px 2px 5px black ;
     border-bottom-left-radius: 15px;
 }
 .validator{
-    
     float: right;
     opacity: 0.5;
 }
