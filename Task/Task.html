@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="referrer" content="origin" />
+  <title>Task List</title>
+  <link href="task.css" type="text/css" rel="stylesheet">
+  <script src="task.js"></script>
+</head>
+
+<body class="myDiv">
+  <h1>
+    Task Saver
+  </h1>
+  <div>
+    <label>Task </label>
+    <input type="text" id="myInput">
+    <button id="add" name="button1" onclick="TaskSaver();">Add Task</button>
+    <button id="clear" name="button2" onclick="TaskClear();">Clear Task</button>
+  </div>
+  <div>
+    <fieldset>
+      <legend> Task List</legend>
+      <textarea id="tasklist" name="w3review" rows="10" cols="50," disabled>
+  </textarea>
+    </fieldset>
+    <div class="back">
+      <a href="../index.html"><img src="home.png" alt="home" width="30" title="home"/></a><br/>
+      </div>
+  </div>
+  <a href="http://validator.w3.org/check/referer">
+    <img
+      src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png"
+      alt="html validator"
+  /></a>
+  <a href="https://jigsaw.w3.org/css-validator/check/referer">
+    <img
+      src="https://mumstudents.org/cs472/2013-09/images/w3c-css.png"
+      alt="css-validator"
+  /></a>
+</body>
+
+</html>
