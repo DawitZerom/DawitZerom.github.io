@@ -3,14 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="referrer" content="origin" />
-    <script>
-      function calculateTip() {
-        let subtotal = document.getElementById("subtotal").value;
-        let tip = document.getElementById("tip").value;
-        let total =
-          (parseFloat(subtotal) * parseFloat(tip)) / 100 + parseFloat(subtotal);
-        document.getElementById("total").innerText = "$" + total;
-      }
+    
+    <script src="calculator.js">
+     
+      
     </script>
 
     <title>Tip Calculator</title>
@@ -58,6 +54,7 @@
         src="http://mumstudents.org/cs472/2013-09/images/w3c-css.png"
         alt="html validator"
       />
+      
     </a>
   </body>
 </html>
