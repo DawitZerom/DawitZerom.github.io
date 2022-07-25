@@ -5,6 +5,7 @@
 
     <!-- metadata -->
     <meta charset="utf-8" />
+    <meta name="referrer" content="origin">
     <meta name="author" content="Marty Stepp" />
     <meta
       name="description"
@@ -143,91 +144,7 @@
     </div>
 
     <div class="presentation">
-        <!--
-      <div class="slide" id="slide0" style="display: block">
-        <h1>Maharishi International University, CS472</h1>
-        <h2>Lab 6: Decorate My Text</h2>
-
-        <p class="license">
-          Except where otherwise noted, the contents of this document are
-          Copyright 2012 Marty Stepp, Jessica Miller, and Victoria Kirst. All
-          rights reserved. Any redistribution, reproduction, transmission, or
-          storage of part or all of the contents in any form is prohibited
-          without the author's expressed written permission.
-        </p>
-
-        <p class="license">
-          <em
-            >original lab idea and code by Victoria Kirst and Jeff Prouty;
-            revised by Brian Le, Katlyn Edwards, Roy McElmurry IV, and Marty
-            Stepp</em
-          >
-        </p>
-
-        <div class="w3c">
-          <a href="http://validator.w3.org/check/referer"
-            ><img src="w3c-html.png" alt="Valid HTML5"
-          /></a>
-          <a href="http://jigsaw.w3.org/css-validator/check/referer"
-            ><img src="w3c-css.png" alt="Valid CSS"
-          /></a>
-          <a href="http://mumstudents.org/jshint/referer.php"
-            ><img src="jshint-small.png" alt="Valid JS"
-          /></a>
-        </div>
-        <canvas
-          class="drawingoverlay"
-          id="drawingoverlay_slide0"
-          style="position: absolute; top: 0px; left: 0px; display: none"
-          width="1920"
-          height="1080"
-        ></canvas>
-      </div>
-
-      <div class="slide" id="slide1" style="display: none">
-        <h1>Today's lab</h1>
-
-        <p>
-          Today you'll write a page where the user can type text into a box, and
-          by clicking on UI controls, the user can decorate the text by giving
-          it funny styling.
-        </p>
-
-        <p>
-          The HTML page <code>decoratemytext.html</code> contains a basic HTML
-          shell and page header. This skeleton already links to a CSS file
-          <code>decoratemytext.css</code> that defines all the styles you need.
-          You do not have to write any CSS code today.
-        </p>
-
-        <p>
-          You will write a JavaScript file <code>decoratemytext.js</code> that
-          will manipulate the text.
-        </p>
-
-        <p>Download the HTML file below to get started:</p>
-
-        <ul>
-          <li>
-            <a class="popup" href="./6/decoratemytext.html"
-              ><img
-                src="decoratemytext_files/icon_html.gif"
-                class="icon"
-                alt="html"
-              />
-              decoratemytext.html</a
-            >
-          </li>
-        </ul>
-        <canvas
-          class="drawingoverlay"
-          id="drawingoverlay_slide1"
-          style="position: absolute; top: 0px; left: 0px; display: none"
-          width="1920"
-          height="1080"
-        ></canvas>
-      </div>-->
- <!-- first -->
+       
       <div class="slide" id="slide2" style="display: none">
         <h1>Text Decorator</h1>
 
@@ -257,29 +174,7 @@
         ></canvas>
       </div>
 
-      <!--<div class="slide" id="slide3" style="display: none">
-        <h1>
-          Exercise <span class="exercisenumber noincrement"></span>, output
-        </h1>
-
-        <p>Your page should look like this:</p>
-
-        <div class="outputimagearea">
-          <img
-            src="decoratemytext_files/output1-controls.png"
-            alt="expected output"
-          />
-        </div>
-        <canvas
-          class="drawingoverlay"
-          id="drawingoverlay_slide3"
-          style="position: absolute; top: 0px; left: 0px; display: none"
-          width="1920"
-          height="1080"
-        ></canvas>
-      </div>-->
-
-      <!--second -->
+      
       <div class="slide" id="slide4" style="display: none">
         <h1>
           Exercise <span class="exercisenumber"></span>: JavaScript
@@ -378,28 +273,7 @@
         ></canvas>
       </div>
 
-      <!--<div class="slide" id="slide7" style="display: none">
-        <h1>
-          Exercise <span class="exercisenumber noincrement"></span>, output
-        </h1>
-
-        <p>The text should look like this after the button is clicked:</p>
-
-        <div>
-          <img
-            src="decoratemytext_files/output4-biggerText.png"
-            alt="expected output"
-          />
-        </div>
-        <canvas
-          class="drawingoverlay"
-          id="drawingoverlay_slide7"
-          style="position: absolute; top: 0px; left: 0px; display: none"
-          width="1920"
-          height="1080"
-        ></canvas>
-      </div>-->
-      <!--fifth-->
+      
       <div class="slide" id="slide8" style="display: none">
         <h1>
           Exercise <span class="exercisenumber"></span>: Bling Checkbox 
@@ -497,30 +371,17 @@
           height="1080"
         ></canvas>
       </div>
-
+      <div id="validation">
+        <a href="http://validator.w3.org/check/referer"> 
+          <img src="http://mumstudents.org/cs472/2014-09/images/w3c-html.png" alt="html validator"/></a>
+         
+          <a href ="http://jigsaw.w3.org/css-validator/check/referer">
+          <img src = "http://mumstudents.org/cs472/2013-09/images/w3c-css.png" alt = "html validator"/></a>
+    
+    </div>
       
     </div>
-    <!-- end div class="presentation" -->
-
-    <!-- Google Analytics 
-		<script type="text/javascript">
-			if (location.href.match(/http:\/\//)) {
-				if (!location.href.match(/localhost/)) {
-					var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-					document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-				}
-			}
-		</script>
-
-		<script type="text/javascript">
-			if (location.href.match(/http:\/\//)) {
-				if (!location.href.match(/localhost/)) {
-					var pageTracker = _gat._getTracker("UA-2729135-5");
-					pageTracker._initData();
-					pageTracker._trackPageview();
-				}
-			}
-		</script>-->
+    
         <script type="text/javascript" src="decoratemytext.js"></script>
   </body>
 </html>
