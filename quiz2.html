@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div>no ul here</div>
+    <div>
+      This does contain a ul.
+      <ul>
+        <li>the first item</li>
+        <li>the second item</li>
+      </ul>
+    </div>
+    <p>how about this one</p>
+    <script>
+      $(function () {
+        $("button").click(function(){
+        $("body, div, ul, li").find("ul").addClass("blue");
+      });
+    });
+    </script>
+    <style>
+        .blue {
+         color: blue;
+    </style>
+    <button> Add classes to elements </button>
+  </body>
+</html>

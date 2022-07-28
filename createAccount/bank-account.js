@@ -5,6 +5,7 @@ var bankApp = (function(){
 	var balance = 0;
 	var y;
 	
+	
 	function showData(){
 		var dataText = "";
 		for(let i = 0; i < accountInfo.length; i++){
