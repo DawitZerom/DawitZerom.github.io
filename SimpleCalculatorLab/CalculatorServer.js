@@ -5,13 +5,12 @@ app.use(express.json());
 app.use(express.urlencoded());
 app.use(
   express.static(
-    "C:/Users/Hermon AW/Desktop/MIU/WAP/MyWapProjects/SimpleCalculatorLab/public"
-  )
-);
+    "C:/Users/student/Documents/GitHub/DawitZerom.github.io/SimpleCalculatorLab/public"
+));
 
 app.get("/", function (req, res, next) {
   res.sendFile(
-    "C:/Users/Hermon AW/Desktop/MIU/WAP/MyWapProjects/SimpleCalculatorLab/public/SimpleCalc.html"
+    "C:/Users/student/Documents/GitHub/DawitZerom.github.io/SimpleCalculatorLab/public/SimpleCalc.html"
   );
 });
 
