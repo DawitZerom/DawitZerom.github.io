@@ -1,5 +1,26 @@
 {
   "dependencies": {
     "express": "^4.18.1"
-  }
+  },
+  "name": "dawit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DawitZerom/DawitZerom.github.io.git"
+  },
+  "author": "dawit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DawitZerom/DawitZerom.github.io/issues"
+  },
+  "homepage": "https://github.com/DawitZerom/DawitZerom.github.io#readme",
+  "keywords": [
+    "a"
+  ],
+  "description": ""
 }
