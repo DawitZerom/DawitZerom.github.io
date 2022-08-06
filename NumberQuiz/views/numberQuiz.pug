@@ -1,0 +1,25 @@
+html
+    head
+        title Quiz Game 
+
+        body
+          form (action ="http://localhost:8085/")
+            label (name=quiznumber)
+            input (type="hidden" name="quiznumber" value=#{hidden}) 
+            div 
+              p your score is
+              input (type="text" name="score" value=#{score} readonly)
+  
+              p Guess the next number in the sequence.
+              p String(list)
+  
+              label your answer:
+              input (type="text" name="youranswer")
+ 
+              input (type="submit" value="Submit")
+  
+
+              res.write (
+                a (href="startquiz.html")
+              );
+ 
